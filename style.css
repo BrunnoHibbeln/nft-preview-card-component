@@ -1,143 +1,143 @@
 * {
-   margin: 0;
-   border: 0;
-   box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 :root {
-   --cyan: hsl(178, 100%, 50%);
-   --soft-blue: hsl(215, 51%, 70%);
-   --blue: hsl(215, 32%, 27%);
-   --dark-blue: hsl(216, 50%, 16%);
-   --very-dark-blue: hsl(217, 54%, 11%);
-   --blue-gray : hsl(214, 27%, 61%);
+  --cyan: hsl(178, 100%, 50%);
+  --soft-blue: hsl(215, 51%, 70%);
+  --blue: hsl(215, 32%, 27%);
+  --dark-blue: hsl(216, 50%, 16%);
+  --very-dark-blue: hsl(217, 54%, 11%);
+  --blue-gray: hsl(214, 27%, 61%);
 }
 
 html {
-   font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-   background-color: var(--very-dark-blue);
-   width: auto;
-   height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-family: 'Outfit', sans-serif;
+  background-color: var(--very-dark-blue);
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
 }
 
 main {
-   background-color: var(--dark-blue);
-   width: 28rem;
-   height: auto;
-   border-radius: 1rem;
+  background-color: var(--dark-blue);
+  width: 35rem;
+  height: auto;
+  border-radius: 1rem;
 }
 
 .nft-img {
-   width: 28rem;
-   height: 28rem;
-   padding: 1.8rem;
-   border-radius: 25px;
+  width: 35rem;
+  height: 35rem;
+  padding: 1.8rem;
+  border-radius: 25px;
 }
 
 .title {
-   color: white;
-   font-size: 1.8rem;
-   font-weight: 500;
-   padding: 0rem 1.8rem 1rem 1.8rem;
+  color: white;
+  font-size: 2.3rem;
+  font-weight: 700;
+  padding: 0rem 1.8rem 1rem 1.8rem;
 }
 
 .paragraph {
-   color: var(--blue-gray);
-   font-size: 1.5rem;
-   font-weight: 300;
-   padding: 0rem 1.8rem;
+  color: var(--blue-gray);
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding: 0rem 1.8rem;
 }
 
 .nft-article {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   padding: 1.8rem;
-   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1.8rem;
+  position: relative;
 }
 
 .nft-ethereum {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   position: absolute;
-   left: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  left: 1.8rem;
 }
 
 .nft-ethereum img {
-   width: 0.8rem;
+  width: 0.8rem;
 }
 
 .nft-ethereum h2 {
-   color: var(--cyan);
-   font-size: 1.2rem;
-   font-weight: 500;
-   padding-left: 0.5rem;
+  color: var(--cyan);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-left: 0.5rem;
 }
 
 .nft-days {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   position: absolute;
-   right: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  right: 1.8rem;
 }
 
 .nft-days img {
-   width: 1.5rem;
+  width: 1.5rem;
 }
 
 .nft-days h2 {
-   color: var(--blue-gray);
-   font-size: 1.2rem;
-   font-weight: 500;
-   padding-left: 0.5rem;
+  color: var(--blue-gray);
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-left: 0.5rem;
 }
 
 .line {
-   display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .line hr {
-   border-bottom: 1px solid var(--blue);
-   width: 80%;
-   padding: 1rem;
+  border-bottom: 1px solid var(--blue);
+  width: 90%;
+  padding: 1.2rem;
 }
 
 .creator-article {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   padding: 1.8rem 1.8rem 2.5rem 1.8rem;
-   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 3rem 1.8rem 3rem 6rem;
+  position: relative;
 }
 
 .creator-article img {
-   width: 2.8rem;
-   border-radius: 50%;
-   border: 1px solid white;
-   position: absolute;
-   left: 1.8rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: absolute;
+  left: 1.8rem;
 }
 
 .creator-article h2 {
-   color: var(--blue-gray);
-   font-size: 1.3rem;
-   font-weight: 300;
-   padding-right: 0.4rem;
+  color: var(--blue-gray);
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-right: 0.4rem;
 }
 
 .creator-article h3 {
-   color: white;
-   font-size: 1.3rem;
-   font-weight: 500;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
