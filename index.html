@@ -1,53 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="stylesheet" href="style.css">
-  
-  <title>NFT preview card component</title>
+    <link rel="stylesheet" href="style.css" />
 
-</head>
-<body>
-  <main class="main">
-    <img class="nft-img" src="images/image-equilibrium.jpg" alt="NFT image">
-    <h1 class="title">
-      Equilibrium #3429
-    </h1>
-    
-    <p class="paragraph">
-      Our Equilibrium collection promotes balance and calm.
-    </p>
-    
-    <article class="nft-article">
-      <section class="nft-ethereum">
-        <img src="images/icon-ethereum.svg" alt="NFT icon">
-        <h2>0.041 ETH</h2>
+    <title>NFT preview card component</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="img-box">
+        <img
+          class="nft-img"
+          src="images/image-equilibrium.jpg"
+          alt="NFT image"
+        />
+        <article class="overlay-box">
+          <img
+            class="overlay-img"
+            src="images/icon-view.svg"
+            alt="Overlay icon"
+          />
+        </article>
       </section>
+      <h1 class="title">Equilibrium #3429</h1>
 
-      <section class="nft-days">
-        <img src="images/icon-clock.svg" alt="Clock icon">
-        <h2>3 days left</h2>
-      </section>
-    </article>
+      <p class="paragraph">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
 
-    <article class="line">
-      <hr>
-    </article>
-    
-    <article class="creator-article">
-      <img src="images/image-avatar.png" alt="Creator's photo">
-      <h2>
-        Creation of <h3>Jules Wyvern</h3>
-      </h2>
-    </article>
-  </main>
+      <article class="nft-article">
+        <section class="nft-ethereum">
+          <img src="images/icon-ethereum.svg" alt="NFT icon" />
+          <h2>0.041 ETH</h2>
+        </section>
 
-</body>
+        <section class="nft-days">
+          <img src="images/icon-clock.svg" alt="Clock icon" />
+          <h2>3 days left</h2>
+        </section>
+      </article>
+
+      <article class="line">
+        <hr />
+      </article>
+
+      <article class="creator-article">
+        <img src="images/image-avatar.png" alt="Creator's photo" />
+        <h2>
+          Creation of
+          <h3>Jules Wyvern</h3>
+        </h2>
+      </article>
+    </main>
+  </body>
 </html>
